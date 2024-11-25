@@ -1,0 +1,26 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+aave_test_v2.sol
+aave_test_v3.sol
+AaveTestV1.sol
+FlashLoanAbitrageFianlV2.sol
+FlashLoanAbitrageFianlV3.sol
+FlashSwap_v1.sol
+Lock.sol
+swap_test_v6.sol
+deploy.js
+deploy2.js
+test
