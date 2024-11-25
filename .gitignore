@@ -16,7 +16,7 @@ node_modules
 aave_test_v2.sol
 aave_test_v3.sol
 AaveTestV1.sol
-FlashLoanAbitrageFianlV2.sol
+FlashLoanAbitrageFinalV2.sol
 FlashLoanAbitrageFianlV3.sol
 FlashSwap_v1.sol
 Lock.sol
