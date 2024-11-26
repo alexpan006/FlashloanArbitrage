@@ -20,22 +20,12 @@ module.exports = {
             }
         ]
     },
-    networks: {
-        sepolia: {
-            url: process.env.INFURA_SEPOLIA_ENDPOINT,
-            accounts: [process.env.PRIVATE_KEY],
-        },
-        goerli: {
-            url: process.env.INFURA_GOERLI_ENDPOINT,
-            accounts: [process.env.PRIVATE_KEY],
-        },
-        mainnet: {
-            url: process.env.INFURA_MAINNET_ENDPOINT,
-            accounts: [process.env.PRIVATE_KEY]
-        },
-        mumbai: {
-          url: process.env.MUMBAI,
-          accounts: [process.env.PRIVATE_KEY]
-      },
-    },
+    networks:{
+        hardhat:{
+            forking:{
+                url:process.env.ALCAMY_MAINNET,
+                blockNumber:21274100
+            }
+        }
+    }
 };
